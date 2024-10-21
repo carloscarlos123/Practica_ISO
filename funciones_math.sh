@@ -7,3 +7,8 @@ function suma(){
 	local suma_total=$(($1+$2))
 	echo $suma_total
 }
+
+function resta(){
+	local resta_total=$(($1-$2))
+	echo $resta_local
+}
